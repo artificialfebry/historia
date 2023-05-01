@@ -1,0 +1,152 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #c6bda5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header  { color: #f2f2f2;
+    background-color: #313b2f;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #f2f2f2;
+    display: inline-block;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #d5bf67;
+  }
+  
+  /* Main Section Styles */
+  section {
+    font-family: 'Arvo', serif;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+  }
+  
+  section img {
+    font-family: 'Arvo', serif;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  article img {
+    font-family: 'Arvo', serif;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #313b2f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d5bf67;
+  }
+  
+  /* Article Styles */
+  article {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  article h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    font-family: 'Arvo', serif;
+    background-color: #313b2f;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #d5bf67;
+  }
+  
